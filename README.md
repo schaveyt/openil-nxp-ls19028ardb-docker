@@ -11,6 +11,15 @@
    - Increase the Swap to at least 2048
    - Increase the Disk Space to at least 128GB
 
+## 2. Create the OpenIL Dev Environment Docker Image
+
+~~~bash
+cd {repo root dir}/script
+chmod 755 ./docker-build-image.sh
+./docker-build-image.sh -i openil-base -t 2.0
+~~~
+
+
 ## Build OpenIL software images via Docker
 
 1. Ensure you have install the software as specified by the Windows Dev Machine System Requirements section above
