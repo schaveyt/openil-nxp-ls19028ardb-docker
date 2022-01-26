@@ -7,11 +7,8 @@ MAKE_CLEAN_SRC=0 # for now, don't always clean and download source files.
 REBUILD_ROOTFS=0
 REBUILD_PKG=0
 REBUILD_PKG_NAME="UNDEFINED"
-BSP_VERSION=2020.02.3-326
-BSP_SRC_DIR="mscc-brsdk-source-$BSP_VERSION"
-BSP_IMG_NAME="mscc-brsdk-arm64-$BSP_VERSION.tar.gz"
-BSP_INSTALL_DIR="/opt/mscc/mscc-brsdk-arm64-$BSP_VERSION"
-RELEASE="222222-X01"
+BSP_VERSION=1.11-202104
+RELEASE="openil-$BSP_VERSION-ls1028ardb"
 
 function usage {
     echo "Usage: build-bsp.sh [options]"
